@@ -5,7 +5,7 @@
 # npm i -g http-server
 # http-server -p 8000 --cors
 
-FROM node:18-alpine
+FROM node:22.23.4-alpine
 
 RUN apk update && apk add --no-cache git
 
